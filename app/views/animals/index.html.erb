@@ -3,8 +3,14 @@
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Email</th>
+      <th>Nome</th>
+      <th>Raça</th>
+      <th>Gênero</th>
+      <th>Castrado</th>
+      <th>Data de Nascimento</th>
+      <th>Nome do Dono</th>
+      <th>Telefone do Dono</th>
+      <th>Ultima visita</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -12,8 +18,14 @@
   <tbody>
     <% @animals.each do |animal| %>
       <tr>
-        <td><%= animal.nameowner %></td>
+        <td><%= animal.name %></td>
         <td><%= animal.breed %></td>
+        <td><%= animal.genre %></td>
+        <td><%= animal.castrated %></td>
+        <td><%= animal.birth %></td>
+        <td><%= animal.nameowner %></td>
+        <td><%= animal.phoneowner %></td>
+        <td><%= animal.lastvisit %></td>
       </tr>
     <% end %>
   </tbody>

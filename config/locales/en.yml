@@ -24,4 +24,28 @@ en:
   faker:
     name:
       # Existing faker field, new data
-      animal_breed: [Charlotte, Ava, Chloe, Emily]
+      dog: [Alano Espanhol, Airedale Terrier,
+                    American Staffordshire Terrier, American Water Spaniel,
+                    Antigo Cão de Pastor Inglês, Basset Azul da Gasconha,
+                    Basset Fulvo da Bretanha, Basset Hound, Beagle,
+                    Bearded Collie, Bichon Maltês, Bobtail, Border Collie,
+                    Boston Terrier, Boxer, Bull Terrier, Bullmastiff,
+                    Bulldog, Cão de Montanha dos Pirinéus, Caniche,
+                    Chihuahua, Cirneco do Etna, Chow Chow, Cocker Spaniel,
+                    Dálmata, Dobermann, Dogue Alemão, Dogue Argentino,
+                    Dogue Canário, Fox Terrier, Foxhound, Galgo,
+                    Golden Retriever, Gos d'Atura, Husky Siberiano,
+                    Laika, Labrador Retriever, Malamute-do-Alasca,
+                    Mastin dos Pirenéus, Mastin do Tibete, Mastin Espanhol,
+                    Mastín Napolitano, Pastor Alemão, Pastor Belga,
+                    Pastor de Brie, Pastor dos Pirenéus de Cara Rosa,
+                    Pequinês, Perdigueiro, Pitbull, Podengo, Pointer,
+                    Pug, Rhodesian Ridgeback, Rottweiler, Rough Collie,
+                    Sabueso, Saluki, Samoiedo, São Bernardo, Scottish Terrier,
+                    Setter Irlandés, Shar-Pei, Shiba Inu, Smooth Collie,
+                    Staffordshire Bull Terrier, Teckel, Terra-nova,
+                    Terrier Australiano, Terrier Escocês, Terrier Irlandês,
+                    Terrier Japonês, Terrier Negro Russo, Terrier Norfolk,
+                    Terrier Norwich, Terrier Tibetano, Welhs Terrier,
+                    West Highland T., Wolfspitz, Yorkshire Terrier]
+      genre: [Macho, Fêmea]
