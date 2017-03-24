@@ -1,20 +1,16 @@
-<h1>Listagem Cachorros</h1>
-
-<table>
+<table class="table table-striped">
   <thead>
     <tr>
       <th>Nome</th>
       <th>Raça</th>
       <th>Gênero</th>
       <th>Castrado</th>
-      <th>Data de Nascimento</th>
+      <th>Data Nasc</th>
       <th>Nome do Dono</th>
-      <th>Telefone do Dono</th>
-      <th>Ultima visita</th>
-      <th colspan="3"></th>
+      <th>Tel do Dono</th>
+      <th>Ultima visita</th
     </tr>
   </thead>
-
   <tbody>
     <% @animals.each do |animal| %>
       <tr>
@@ -30,5 +26,3 @@
     <% end %>
   </tbody>
 </table>
-
-<br>
