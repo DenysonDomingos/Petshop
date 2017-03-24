@@ -13,7 +13,7 @@
   animal_birth = Faker::Date.birthday(18, 65)
   animal_name = Faker::Cat.name
   animal_nameowner = Faker::Name.name
-  animal_phoneowner = Faker::PhoneNumber.cell_phone
+  animal_phoneowner = Faker::PhoneNumber.phone_number
   animal_lastvisit = Faker::Date.between_except(1.year.ago, 1.year.from_now, Date.today)
 
   puts "Cadastrando Animal #{i+1}"

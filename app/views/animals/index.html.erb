@@ -1,4 +1,4 @@
-<h1>Listing Users</h1>
+<h1>Listagem Cachorros</h1>
 
 <table>
   <thead>
@@ -21,11 +21,11 @@
         <td><%= animal.name %></td>
         <td><%= animal.breed %></td>
         <td><%= animal.genre %></td>
-        <td><%= animal.castrated %></td>
-        <td><%= animal.birth %></td>
+        <td><%= "#{return_castrated(animal.castrated)}" %></td>
+        <td><%= l(animal.birth) %></td>
         <td><%= animal.nameowner %></td>
         <td><%= animal.phoneowner %></td>
-        <td><%= animal.lastvisit %></td>
+        <td><%= l(animal.lastvisit) %></td>
       </tr>
     <% end %>
   </tbody>

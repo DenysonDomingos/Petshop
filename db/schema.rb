@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20170324150430) do
     t.date     "birth"
     t.string   "name"
     t.string   "nameowner"
-    t.integer  "phoneowner"
+    t.string   "phoneowner"
     t.date     "lastvisit"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

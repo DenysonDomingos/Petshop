@@ -7,7 +7,7 @@ class CreateAnimals < ActiveRecord::Migration[5.0]
       t.date :birth
       t.string :name
       t.string :nameowner
-      t.integer :phoneowner
+      t.string :phoneowner
       t.date :lastvisit
 
       t.timestamps
