@@ -49,3 +49,6 @@
     <% end %>
   </tbody>
 </table>
+
+
+<%= will_paginate @animals, renderer: WillPaginate::ActionView::BootstrapLinkRenderer, previous_label: "Anterior", next_label: "Proximo", inner_window: 3, outer_window: 0%>
