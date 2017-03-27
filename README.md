@@ -12,3 +12,8 @@ $ bundle install
 $ rake db:drop db:create db:migrate db:seed
 ```
 To download the dependencies and create a new database with the pre-registers
+
+And finally perform:
+```sh
+$ rails server
+```
