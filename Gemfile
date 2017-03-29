@@ -15,8 +15,9 @@ end
 
 gem 'ransack', github: 'activerecord-hackery/ransack'
 
-gem 'will_paginate', '~> 3.1.0'
 gem 'will_paginate-bootstrap4'
+
+gem 'pry'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'

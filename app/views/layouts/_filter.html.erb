@@ -1,0 +1,18 @@
+<%= search_form_for @search do |f| %>
+<hr>
+  <div class="form-group">
+    <div class="row">
+      <div class="col-3">
+        <%= f.search_field :name_cont, class: "form-control", placeholder: "Nome" %>
+      </div>
+
+      <div class="col-3">
+        <%= f.search_field :breed_cont, class: "form-control", placeholder: "Raça" %>
+      </div>
+      <div class="col-3">
+        <%= f.search_field :nameowner_cont, class: "form-control", placeholder: "Nome do Dono" %>
+      </div>
+      <%= f.submit "Filtrar", class: "btn btn-primary" %>
+    </div>
+  </div>
+<% end %>

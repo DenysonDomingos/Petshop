@@ -12,29 +12,6 @@
     </tr>
   </thead>
   <tbody>
-    <%= search_form_for @search do |f| %>
-    <div class="titulo">
-      <h1> Listagem simples com filtros basicos</h1>
-    </div>
-    <hr>
-      <div class="form-group">
-        <div class="row">
-          <div class="col-3">
-            <%= f.search_field :name_cont, class: "form-control", placeholder: "Nome" %>
-          </div>
-
-          <div class="col-3">
-            <%= f.search_field :breed_cont, class: "form-control", placeholder: "Raça" %>
-          </div>
-          <div class="col-3">
-            <%= f.search_field :nameowner_cont, class: "form-control", placeholder: "Nome do Dono" %>
-          </div>
-          <%= f.submit "Filtrar", class: "btn btn-primary" %>
-        </div>
-      </div>
-    <% end %>
-
-
     <% @animals.each do |animal| %>
       <tr>
         <td><%= animal.name %></td>
@@ -50,5 +27,4 @@
   </tbody>
 </table>
 
-
-<%= will_paginate @animals, renderer: WillPaginate::ActionView::BootstrapLinkRenderer, previous_label: "Anterior", next_label: "Proximo", inner_window: 3, outer_window: 0%>
+<%= will_paginate %>
